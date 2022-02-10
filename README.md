@@ -1,6 +1,19 @@
+# Project demo live link 
+ Project Demolink:   https://sneha1991.github.io/CountryDetails/
+
 # Regionlist
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+
+# ToolsRequired
+node,angular cli
+
+## Clone Project to local
+Run `git clone https://github.com/sneha1991/CountryDetails.git` on command line
+
+## Install Dependencies
+cd directoryname
+run `npm install`
 
 ## Development server
 
