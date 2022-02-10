@@ -1,0 +1,22 @@
+<mat-toolbar color="primary">
+  <span>Country Details</span>
+   
+ </mat-toolbar>
+
+ <!-- Dropdown -->
+<div class="container">
+  <app-dropdown
+    [dropdownData]="regions"
+    [label]="'Select Region'"
+    (emitSelected)="getSelectedRegion($event)"
+  >
+  </app-dropdown>
+  <app-dropdown
+    [dropdownData]="countries"
+    [label]="'Select Country'"
+    (emitSelected)="getSelectedCountry($event)"
+  >
+  </app-dropdown>
+</div>
+
+<app-countrylist></app-countrylist>
