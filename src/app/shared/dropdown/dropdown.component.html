@@ -1,7 +1,7 @@
   <section>
     <mat-form-field appearance="outline">
       <mat-label>{{label}}</mat-label>
-      <mat-select [attr.disabled]="dropdownData.length === 0"  (selectionChange)="emitSelected.emit($event.value)">
+      <mat-select [disabled]="dropdownData.length === 0"  (selectionChange)="emitSelected.emit($event.value)">
         <mat-option *ngFor="let data of dropdownData" [value]="data.value">
           {{ data?.label }}
         </mat-option>
